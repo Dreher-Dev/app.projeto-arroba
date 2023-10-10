@@ -1,7 +1,6 @@
-import './App.css';
 import Esenha from './components/valiLogin';
 import Login from './components/Login';
-import imagem from './components/imgs/image.png';
+import imagem from './assets/imgs/image.png';
 
 
 function App() {

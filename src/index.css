@@ -44,23 +44,6 @@ body{
 
 
 }
-
-.layoutTraço{
-    padding-left: 45%;
-    padding-top: 20px;
-}
-
-.traço {
-    box-sizing: border-box 200px;
-    width: 2px;
-    height: 350px;
-    background-color: blueviolet;
-    padding: 1px;
-    border-radius: 25px;
-    position: absolute;
-    background: #270080;
-}
-
 .imagem {
     box-sizing: border-box;
     width: 620px;
