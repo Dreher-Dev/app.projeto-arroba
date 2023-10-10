@@ -11,6 +11,7 @@ function App() {
       <div className="layoutTraço">
         <div className="traço"></div>
         <img src={imagem} className="imagem"/>
+        <img src={imagem} className="imagem"/>
       </div>
     </div>
   )
