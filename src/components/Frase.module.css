@@ -1,0 +1,11 @@
+.textLogin {
+    width: 94px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #081331;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
