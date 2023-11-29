@@ -1,7 +1,9 @@
-import css from './Traco.module.css';
+import style from './Traco.module.css';
  
 export function Traco() {
 	return (
-		<div className={css.traco}></div>
+		<div className={style.layoutTraco}>
+			<div className={style.traco}></div>	
+		</div>
 	)
 }

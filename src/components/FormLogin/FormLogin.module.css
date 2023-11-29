@@ -1,0 +1,42 @@
+.containerForm {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.containerFormDiv {
+    width: 100%;
+}
+
+.containerFormDiv input {
+    border: 2px solid rgba(39, 0, 128, 1) !important; 
+}
+
+.containerFormButton {
+    margin-left: -50px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(39, 0, 128, 1) !important;
+    border-color: rgba(39, 0, 128, 1) !important;
+}
+
+.containerFormConta {
+    margin-left: 42px;
+    margin-top: 25px;
+}
+
+.textLogin {
+    padding-left: 5%;
+    color: #081331;
+    font-style: italic;
+    text-align: center;
+}
+
+.textP {
+    padding-left: 5%;
+    font-size: 18px;
+}
+
