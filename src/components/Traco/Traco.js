@@ -1,9 +1,9 @@
-import style from './Traco.module.css';
+import style from './VerticalLine .module.css';
  
-export function Traco() {
+export function VerticalLine () {
 	return (
-		<div className={style.layoutTraco}>
-			<div className={style.traco}></div>	
+		<div className={style.layoutVerticalLine }>
+			<div className={style.verticalLine }></div>	
 		</div>
 	)
 }

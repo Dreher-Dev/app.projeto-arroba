@@ -1,8 +1,8 @@
-.layoutTraco{
+.layoutVerticalLine {
     margin-left: -50px;
 }
 
-.traco {
+.verticalLine  {
     box-sizing: border-box 200px;
     width: 2px;
     height: 450px;

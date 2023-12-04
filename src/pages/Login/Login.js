@@ -1,6 +1,6 @@
 import { FormLogin } from "../../components/FormLogin/FormLogin"
 import { Imagem } from "../../components/Imagem/Imagem"
-import { Traco } from "../../components/Traco/Traco"
+import { VerticalLine  } from "../../components/VerticalLine /VerticalLine "
 import style from "./Login.module.css"
 
 function Login() {
@@ -10,8 +10,8 @@ function Login() {
                 <div>                
                     <FormLogin/>
                 </div>
-                <div className={style.containerTraco}>
-                    <Traco/>
+                <div className={style.containerVerticalLine }>
+                    <VerticalLine />
                 </div>
                 <div>
                     <Imagem/>
