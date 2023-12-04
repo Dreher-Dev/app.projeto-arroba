@@ -1,15 +1,12 @@
-.layoutTraço{
-    padding-left: 45%;
-    padding-top: 20px;
+.layoutVerticalLine {
+    margin-left: -50px;
 }
 
-.traço {
+.verticalLine  {
     box-sizing: border-box 200px;
     width: 2px;
-    height: 350px;
+    height: 450px;
     background-color: blueviolet;
-    padding: 1px;
     border-radius: 25px;
-    position: absolute;
     background: #270080;
 }

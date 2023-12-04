@@ -4,51 +4,20 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    
 }
     
 .flex{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 body{
     width: 100%;
     height: 100%;
-    background: #D8B9FF;
-   
 }
 
-.textLogin {
-    padding-left: 20%;
-    padding-top: 100px;
-    width: 94px;
-    height: 39px;
-    flex-shrink: 0;
-    color: #081331;
-    font-family: Roboto;
-    font-size: 32px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
+.align-center {
+    margin-top: 20vh;
 }
-
-.textP {
-    width: 180px;
-    height: 23px;
-    padding-left: 20px;
-    padding-top: 50px;
-    left: 53px;
-    font-family: Roboto;
-    font-size: 20px;
-
-
-}
-.imagem {
-    box-sizing: border-box;
-    width: 620px;
-    height: 420px;
-    top: 226px;
-    left: 646px;
-}
-
