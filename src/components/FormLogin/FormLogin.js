@@ -67,7 +67,7 @@ export function FormLogin() {
                 </Button>
             </Form>
             <div>
-                <Form className={style.containerFormConta}>
+                <Form className={style.containerFormAccount}>
                     <p>Ainda não tem conta Seekup? Crie sua conta grátis</p>
                 </Form>
             </div>
