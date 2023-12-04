@@ -1,5 +1,5 @@
 import { FormLogin } from "../../components/FormLogin/FormLogin"
-import { Imagem } from "../../components/Imagem/Imagem"
+import { Image } from "../../components/Image/Image"
 import { VerticalLine  } from "../../components/VerticalLine /VerticalLine "
 import style from "./Login.module.css"
 
@@ -14,7 +14,7 @@ function Login() {
                     <VerticalLine />
                 </div>
                 <div>
-                    <Imagem/>
+                    <Image/>
                 </div>    
             </div>
         </>

@@ -1,9 +1,9 @@
-import style from "./Imagem.module.css"
+import style from "./Image.module.css"
 
-export function Imagem() {
+export function Image() {
     return(
         <div className={style.containerImage}>
-            <img src="/assets/imgs/imgLogin.png" alt="Imagem de pessoas trabalhando" className="imagem"/>
+            <img src="/assets/imgs/imgLogin.png" alt="Image de pessoas trabalhando" className="imagem"/>
         </div>
     )
 }
