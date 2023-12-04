@@ -39,7 +39,7 @@ export function FormLogin() {
                     <h3 className={style.textLogin}>Login</h3>
                 </div>
                 <p className={style.textP}>Entre em sua conta.</p>
-                <Form.Group className={style.containerFormDiv}  controlId="formBasicEmail">
+                <Form.Group className={style.containerFormDiv}>
                     <Form.Label>Email </Form.Label>
                     <Form.Control 
                     type="email" 
@@ -47,7 +47,7 @@ export function FormLogin() {
                     onChange={(e) => setEmail(e.target.value)}/>
                 </Form.Group>
 
-                <Form.Group className={style.containerFormDiv} controlId="formBasicPassword">
+                <Form.Group className={style.containerFormDiv}>
                     <Form.Label >Password</Form.Label>
                     <Form.Control 
                     type="password"
@@ -55,7 +55,7 @@ export function FormLogin() {
                     onChange={(e) => setPassword(e.target.value)}/>
                 </Form.Group>
 
-                <Form.Group  className={style.containerFormDiv}controlId="formBasicCheckbox">
+                <Form.Group  className={style.containerFormDiv}>
                     <Form.Check type="checkbox" label="Matenha-me conectado"/> 
                 </Form.Group>
                 <Button className={style.containerFormButton} variant="primary" disabled={email === '' || password === ''}  onClick={validateUserCredentials}>
