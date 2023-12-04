@@ -1,4 +1,4 @@
-import style from './VerticalLine .module.css';
+import style from './VerticalLine.module.css';
  
 export function VerticalLine () {
 	return (
