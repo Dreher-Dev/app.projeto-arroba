@@ -32,6 +32,10 @@ export function FormLogin() {
           });
 }
 
+    function isButtonDisabled() {
+        return !!(email === '' || password === '')
+    }
+
   return (
         <>
             <Form className={style.containerForm}>
@@ -58,7 +62,7 @@ export function FormLogin() {
                 <Form.Group  className={style.containerFormDiv}>
                     <Form.Check type="checkbox" label="Matenha-me conectado"/> 
                 </Form.Group>
-                <Button className={style.containerFormButton} variant="primary" disabled={email === '' || password === ''}  onClick={validateUserCredentials}>
+                <Button className={style.containerFormButton} variant="primary" disabled={isButtonDisabled}  onClick={validateUserCredentials}>
                     Entrar
                 </Button>
             </Form>
